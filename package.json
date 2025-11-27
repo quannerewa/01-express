@@ -1,6 +1,7 @@
 {
   "name": "01-express",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -31,6 +32,7 @@
     "express": "^5.1.0",
     "helmet": "^8.1.0",
     "pino": "^10.1.0",
-    "pino-http": "^11.0.0"
+    "pino-http": "^11.0.0",
+    "pino-pretty": "^13.1.2"
   }
 }
